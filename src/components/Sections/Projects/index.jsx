@@ -8,7 +8,7 @@ const Projects = () => {
       <h2 className="title2">Projetos</h2>
       <ul className={style.containerUL}>
         {projects.map((el, i) => (
-          <ProjectCard key={i} projects={el} />
+          <ProjectCard key={i} project={el} />
         ))}
       </ul>
     </section>

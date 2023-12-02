@@ -8,7 +8,6 @@ const Tecnologies = () => {
       <h2 className="title2">Tecnologias</h2>
       <ul className={style.containerUL}>
         {technologies.map((el, i) => (
-          
           <TecnologiesCard key={i} tecnologies={el} />
         ))}
           
