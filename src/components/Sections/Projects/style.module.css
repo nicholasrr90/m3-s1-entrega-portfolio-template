@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  width: 100%;
+}
+
+.containerUL {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.li {
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 440px;
+
+  padding: 1rem;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.li > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.li > button {
+  padding-top: 2rem;
+}
+
+.li > button:hover {
+    color: var(--color-hover);
+}

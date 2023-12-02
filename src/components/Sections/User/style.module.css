@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.label {
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  .userInfo{
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .userInfo > button:hover {
+    background-color: var(--color-hover);
+  }

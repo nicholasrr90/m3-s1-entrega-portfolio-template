@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.75rem;
+}
+
+.containerUL {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.li {
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 280px;
+  gap: 2rem;
+  padding-left: 1.8125rem;
+  padding-block: 1.8125rem;
+}
